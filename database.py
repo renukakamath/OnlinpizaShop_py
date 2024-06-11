@@ -1,5 +1,5 @@
 import mysql.connector
-password=""
+password="roots"
 database="pizashop"
 def select(q):
 	cnx=mysql.connector.connect(user="root",password=password,host="localhost", database=database)
